@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Black+Han+Sans");
+html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+}
+h2 {
+  margin: 0;
+}
+.header {
+  text-align: center;
+  background-color: #0e9bd8;
+  color: white;
+  padding: 2% 0;
+  margin-bottom: 1%;
+  text-transform: uppercase;
+  font-family: "Black Han Sans", sans-serif;
+  font-size: 3em;
+}
+.container {
+  box-sizing: border-box;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.tabs {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #d3cad7;
+}
+.tab {
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #742cc6;
+  width: 20%;
+  padding: 1%;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+}
+.tab:last-child {
+  border-right: none;
+}
+.active {
+  background-color: #4b367c;
+}
+
+.tabs::after {
+  content: " ";
+  height: 10px;
+  width: 100%;
+  background-color: #4b367c;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+
+.search-block {
+  padding: 2% 0;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #4b367c;
+}
+
+.main {
+  display: block;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 2% auto;
+  text-align: center;
+}
+.user {
+  display: inline-block;
+  width: 33%;
+  margin-top: 2%;
+  padding: 1%;
+  text-decoration: none;
+  color: black;
+}
+.user:hover {
+  text-decoration: none;
+  color: #6e6779;
+}
+.logo {
+  text-align: center;
+}
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+.name {
+  text-align: center;
+  font-weight: bold;
+}
+.status {
+  text-align: center;
+}
