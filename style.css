@@ -13,7 +13,8 @@ body {
   font-size: 16px;
 }
 h2 {
-  margin: 0;
+	margin: 0;
+	vertical-align: middle;
 }
 .header {
   text-align: center;
@@ -73,6 +74,13 @@ h2 {
   background-color: #4b367c;
 }
 
+.search {
+	padding: 2px 5px;
+	background-color: #742cc6;
+	color: white;
+	border-color: #975fd8;
+}
+
 .main {
   display: block;
   border-collapse: collapse;
@@ -81,16 +89,19 @@ h2 {
   text-align: center;
 }
 .user {
+	box-sizing: border-box;
   display: inline-block;
   width: 33%;
   margin-top: 2%;
-  padding: 1%;
+  padding: 2% 1%;
   text-decoration: none;
   color: black;
 }
 .user:hover {
+	box-shadow: 0 0 0 2px;
+	border-radius: 5px;
   text-decoration: none;
-  color: #6e6779;
+  color: #4b367c;
 }
 .logo {
   text-align: center;
@@ -105,4 +116,8 @@ h2 {
 }
 .status {
   text-align: center;
+}
+.footer {
+	text-align: center;
+	color: #0e9bd8bb;
 }
